@@ -1,5 +1,7 @@
-# Python Korean NLP
-파이썬 개발자들의 한국어 자연어 처리를 위한 오픈소스 입니다 .
+# Python Korean NLP Visual
+파이썬 개발자들의 한국어 자연어 처리를 위한 [기존오픈소스](https://github.com/chiheon/Korean-NLP)에 시각화 기능을 추가한 오픈소스입니다.
+
+
 
 ## Introduce
 - 한국어 자체에 대한 전처리가 아직까지 미흡합니다.
@@ -43,8 +45,8 @@
 > ### 윈도우
 > 1. Java 1.7+가 설치되어 있지 않으면 [JAVA_HOME](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html) 
 > 2. Python이 설치되어 있지 않다면, [Python](https://www.python.org)설치 <br>
-    (단, 본인의 운영체제에 맞는 python을 설치해야 합니다. (64bit -> 32bit 설치 x))
-    (또한 pip설치가 되지 않은 python에는 pip를 설치 해줘야 install이 가능하다)
+      (단, 본인의 운영체제에 맞는 python을 설치해야 합니다. (64bit -> 32bit 설치 x))
+      (또한 pip설치가 되지 않은 python에는 pip를 설치 해줘야 install이 가능하다)
 > 3. [JPype1(>=0.5.7)](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype)을 다운로드 받고 설치<br> 
 > ```
 >> pip install --upgrade pip
@@ -241,5 +243,5 @@ cmd창에서 저장한 공간으로 이동한다
 - __아주대학교 201321026 김치헌__<br>
  : Konlpy와 Soynlp의 장점을 살려 기존의 단점을 보완(Konlpy기반으로 Soynlp의 score기능을 추가)
 - __아주대학교 201420998 최순원__<br>
-: Konlpy와 Soynlp의 장단점 및 성능 분석
+  : Konlpy와 Soynlp의 장단점 및 성능 분석
   Installation Guide LiNE 
