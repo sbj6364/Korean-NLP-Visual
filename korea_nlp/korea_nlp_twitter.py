@@ -1,10 +1,13 @@
 from konlpy.tag import Twitter
 from soynlp.tokenizer import MaxScoreTokenizer
-
+from wordcloud import WordCloud
+from matplotlib import font_manager, rc
+import matplotlib.pyplot as plt
 class Tokenizer:
 
     def __init__(self):
         self.t = Twitter()
+        self.font_path = 'c:/Windows/Fonts/malgun.ttf'
         pass;
         
     def tokenize(self, sentence, score_dic):
@@ -73,3 +76,23 @@ class Tokenizer:
                 number = number + 1
         
         return number
+    
+    def make_noun_wordcloud(self,sentence,score_dic,
+                   background_color='white',width = 800,height=400,
+                   max_font_size = 100,max_words=50):
+        
+        noun_list = self.noun_extract(sentence,score_dic)
+        cnt_list = {}
+        for noun in noun_list:
+            cnt_list[noun] = cnt_list.get(noun,0)+1
+        
+        wordcloud = WordCloud(font_path=self.font_path,
+                             max_font_size=max_font_size,
+                             width=width,height=height,
+                             background_color=background_color,
+                             max_words=max_words)
+        wordcloud.generate_from_frequencies(cnt_list)
+        plt.figure(figsize=(20,18))
+        plt.axis("off")
+        plt.imshow(wordcloud,interpolation='bilinear')
+        plt.show()
