@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Korean_NLP_Visual_Practice'
-copyright = '2021, Minji'
-author = 'Minji'
+project = 'Korean_NLP_Visual'
+copyright = '2021, minjijeong'
+author = 'minjijeong'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'

@@ -1,19 +1,18 @@
-.. Korean_NLP_Visual_Practice documentation master file, created by
-   sphinx-quickstart on Thu Nov 18 12:46:27 2021.
+.. Korean_NLP_Visual documentation master file, created by
+   sphinx-quickstart on Thu Nov 18 18:47:11 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Korean_NLP_Visual_Practice's documentation!
-======================================================
+Welcome to Korean_NLP_Visual's documentation!
+=============================================
 Open-source project that adds visualization function to the [existing open-source project](https://github.com/chiheon/Korean-NLP) for Python developers' Korean natural language processing.
-
 
 .. toctree::
    :maxdepth: 2
-   :caption: About the project:
+   :caption: Contents:
 
-   Python Korean NLP Visual/Function
-   Python Korean NLP Visual/Outline
+   About the project/Outline
+   About the project/Function
 
 .. toctree::
    :maxdepth: 2
@@ -29,5 +28,3 @@ Open-source project that adds visualization function to the [existing open-sourc
    :caption: Expectation:
 
    Expectation
-
-
