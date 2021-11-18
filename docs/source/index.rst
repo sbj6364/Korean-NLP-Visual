@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Korean_NLP_Visual_Practice's documentation!
+Korean_NLP_Visual's documentation!
 ======================================================
 Open-source project that adds visualization function to the [existing open-source project](https://github.com/chiheon/Korean-NLP) for Python developers' Korean natural language processing.
 
