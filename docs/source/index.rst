@@ -7,16 +7,28 @@ Welcome to Korean_NLP_Visual's documentation!
 =============================================
 Open-source project that adds visualization function to the [existing open-source project](https://github.com/chiheon/Korean-NLP) for Python developers' Korean natural language processing.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   About the project/Outline
-   About the project/Function
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting start:
+   :caption: 프로젝트
+
+   프로젝트/개요
+   프로젝트/기능
+
+
+-----------------
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: About
+
+   About/Outline
+   About/Function
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting start
 
    Installation/Konlpy Installation
    Installation/Soynlp Installation
@@ -25,12 +37,12 @@ Open-source project that adds visualization function to the [existing open-sourc
 
 .. toctree::
    :maxdepth: 2
-   :caption: How to Use:
+   :caption: How to Use
 
    How to Use
    
 .. toctree::
    :maxdepth: 2
-   :caption: Expectation:
+   :caption: Expectation
 
    Expectation

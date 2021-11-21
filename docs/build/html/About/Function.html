@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matplotlib Installation &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
+  <title>Function &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,8 +18,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Wordcloud Installation" href="Wordcloud%20Installation.html" />
-    <link rel="prev" title="Soynlp Installation" href="Soynlp%20Installation.html" /> 
+    <link rel="next" title="Konlpy Installation" href="../Installation/Konlpy%20Installation.html" />
+    <link rel="prev" title="Outline" href="Outline.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -37,22 +37,17 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">프로젝트:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EA%B0%9C%EC%9A%94.html">개요</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EA%B8%B0%EB%8A%A5.html">기능</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">About:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../About/Outline.html">Outline</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../About/Function.html">Function</a></li>
+              <p class="caption" role="heading"><span class="caption-text">About:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Outline.html">Outline</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Function</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Getting start:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Konlpy%20Installation.html">Konlpy Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Soynlp%20Installation.html">Soynlp Installation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Matplotlib Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Wordcloud%20Installation.html">Wordcloud Installation</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/Konlpy%20Installation.html">Konlpy Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/Soynlp%20Installation.html">Soynlp Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/Matplotlib%20Installation.html">Matplotlib Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/Wordcloud%20Installation.html">Wordcloud Installation</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">How to Use:</span></p>
 <ul>
@@ -77,9 +72,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Matplotlib Installation</li>
+      <li>Function</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/Installation/Matplotlib Installation.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/About/Function.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -87,20 +82,47 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="matplotlib-installation">
-<h1>Matplotlib Installation<a class="headerlink" href="#matplotlib-installation" title="Permalink to this headline"></a></h1>
-<p>1. Install Matplotlib by the command prompt.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
-</pre></div>
-</div>
+  <section id="function">
+<h1>Function<a class="headerlink" href="#function" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Tokenization considering proper nouns</dt><dd><ul>
+<li><p>It makes it easy to designate proper nouns that existing libraries do not recognize so that they can be reflected in tokenization results.</p></li>
+<li><p>If there are multiple proper nouns, you can prioritize by scoring for each noun.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Removing duplicate nouns</dt><dd><ul>
+<li><p>It shows the results by removing duplicate nouns according to the user’s needs.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Counting the number of nouns</dt><dd><ul>
+<li><p>You can quickly check the frequency of certain nouns.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>[In progress] <strong>Visualizing</strong></dt><dd><ul>
+<li><p>The tokenized results are displayed in word clouds and bar graphs according to the frequency to help analyze the text.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Soynlp%20Installation.html" class="btn btn-neutral float-left" title="Soynlp Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Wordcloud%20Installation.html" class="btn btn-neutral float-right" title="Wordcloud Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Outline.html" class="btn btn-neutral float-left" title="Outline" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Installation/Konlpy%20Installation.html" class="btn btn-neutral float-right" title="Konlpy Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

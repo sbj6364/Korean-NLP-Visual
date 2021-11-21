@@ -1,6 +1,6 @@
-############
+#######################
 Matplotlib Installation
-############
+#######################
 
 1. Install Matplotlib by the command prompt.
 ::
