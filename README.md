@@ -67,7 +67,7 @@
 > > pip install JPype1-0.6.3-cp36-cp36m-win_amd64.whl
 > ```
 
-> 1. 명령 프롬프트로 KoNLPy 설치하기
+> 4. 명령 프롬프트로 KoNLPy 설치하기
 >
 > ```
 > > pip install konlpy
@@ -75,15 +75,16 @@
 
 > ##### ※ pip설치하기 ※
 >
-> 1. easy install을 설치하기
->    [easy install](https://bootstrap.pypa.io/ez_setup.py)을 우클릭하여 py script를 다른이름으로 저장한다 cmd창에서 저장한 공간으로 이동한다
+> 1. easy install 설치
+>    1. [easy install](https://bootstrap.pypa.io/ez_setup.py)을 우클릭하여 py script를 다른이름으로 저장
+>    2. cmd창에서 저장한 공간으로 이동
 
 > ```
 > > python ez_setup.py build
 > > python ez_setup.py instll
 > ```
 
-> 1. pip 설치 (단, python/script폴더가 환경변수의 PATH에 등록이 되어야한다)
+> 2. pip 설치 (단, python/script폴더가 환경변수의 PATH에 등록이 되어야한다)
 
 > ```
 > > easy_install pip
