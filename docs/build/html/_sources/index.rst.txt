@@ -25,6 +25,12 @@ Open-source project that adds visualization function to the [existing open-sourc
 
 .. toctree::
    :maxdepth: 2
+   :caption: How to Use:
+
+   How to Use
+   
+.. toctree::
+   :maxdepth: 2
    :caption: Expectation:
 
    Expectation
