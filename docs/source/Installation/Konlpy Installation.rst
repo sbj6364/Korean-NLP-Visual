@@ -1,10 +1,10 @@
-############
+###################
 Konlpy Installation
-############
+###################
 
-*****
+******
 Ubuntu
-*****
+******
 
 
 1. Install KoNLPY by the command prompt.
@@ -15,9 +15,9 @@ Ubuntu
     $ sudo apt-get install pythond3-dev; pip3 install konlpy # Python 3.x
 
 
-***** 
+******
 Mac OS
-*****
+******
 
 1. Install KoNLPY by the command prompt.
 ::
@@ -27,12 +27,14 @@ Mac OS
     $ pip3 install konlpy # Python 3.x
 
 
-*****
+*******
 Windows
-*****
+*******
+
 1. If Java 1.7+ is not installed, JAVA_HOME
 2. If Python is not installed, install Python (You need to install Python that suits your operating system. (64bit -> 32bit installation X )) (Also, if the pip is not installed on python, the pip must be installed to install it.)
-3. Download and install JPype1(>=0.5.7) 
+3. Download and install JPype1(>=0.5.7)
+
 ::
 
     > pip install --upgrade pip
