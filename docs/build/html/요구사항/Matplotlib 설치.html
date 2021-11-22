@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Function &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
+  <title>Matplotlib 설치 &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,8 +18,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Konlpy Installation" href="../Installation/Konlpy%20Installation.html" />
-    <link rel="prev" title="Outline" href="Outline.html" /> 
+    <link rel="next" title="Soynlp 설치" href="Soynlp%20%EC%84%A4%EC%B9%98.html" />
+    <link rel="prev" title="Konlpy 설치" href="Konlpy%20%EC%84%A4%EC%B9%98.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,20 +43,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EA%B8%B0%EB%8A%A5.html">기능</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">요구사항</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD/Konlpy%20%EC%84%A4%EC%B9%98.html">Konlpy 설치</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD/Matplotlib%20%EC%84%A4%EC%B9%98.html">Matplotlib 설치</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD/Soynlp%20%EC%84%A4%EC%B9%98.html">Soynlp 설치</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD/Wordcloud%20%EC%84%A4%EC%B9%98.html">Wordcloud 설치</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Konlpy%20%EC%84%A4%EC%B9%98.html">Konlpy 설치</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Matplotlib 설치</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Soynlp%20%EC%84%A4%EC%B9%98.html">Soynlp 설치</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Wordcloud%20%EC%84%A4%EC%B9%98.html">Wordcloud 설치</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">사용법</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../%EC%82%AC%EC%9A%A9%EB%B2%95.html">사용법</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">About</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Outline.html">Outline</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Function</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../About/Outline.html">Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../About/Function.html">Function</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Getting start</span></p>
 <ul>
@@ -88,9 +88,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Function</li>
+      <li>Matplotlib 설치</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/About/Function.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/요구사항/Matplotlib 설치.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -98,47 +98,20 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="function">
-<h1>Function<a class="headerlink" href="#function" title="Permalink to this headline"></a></h1>
-<ul class="simple">
-<li><dl class="simple">
-<dt>Tokenization considering proper nouns</dt><dd><ul>
-<li><p>It makes it easy to designate proper nouns that existing libraries do not recognize so that they can be reflected in tokenization results.</p></li>
-<li><p>If there are multiple proper nouns, you can prioritize by scoring for each noun.</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Removing duplicate nouns</dt><dd><ul>
-<li><p>It shows the results by removing duplicate nouns according to the user’s needs.</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Counting the number of nouns</dt><dd><ul>
-<li><p>You can quickly check the frequency of certain nouns.</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>[In progress] <strong>Visualizing</strong></dt><dd><ul>
-<li><p>The tokenized results are displayed in word clouds and bar graphs according to the frequency to help analyze the text.</p></li>
-</ul>
-</dd>
-</dl>
-</li>
-</ul>
+  <section id="matplotlib">
+<h1>Matplotlib 설치<a class="headerlink" href="#matplotlib" title="Permalink to this headline"></a></h1>
+<p>1. 명령 프롬프트로 Matplotlib 설치하기</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
+</pre></div>
+</div>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Outline.html" class="btn btn-neutral float-left" title="Outline" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../Installation/Konlpy%20Installation.html" class="btn btn-neutral float-right" title="Konlpy Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Konlpy%20%EC%84%A4%EC%B9%98.html" class="btn btn-neutral float-left" title="Konlpy 설치" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Soynlp%20%EC%84%A4%EC%B9%98.html" class="btn btn-neutral float-right" title="Soynlp 설치" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

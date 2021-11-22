@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>How to Use &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
+  <title>기대효과 &mdash; Korean_NLP_Visual 1.0.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -17,9 +17,7 @@
         <script src="_static/doctools.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Expectation" href="Expectation.html" />
-    <link rel="prev" title="Wordcloud Installation" href="Installation/Wordcloud%20Installation.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -66,8 +64,8 @@
 <li class="toctree-l1"><a class="reference internal" href="Installation/Wordcloud%20Installation.html">Wordcloud Installation</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">How to Use</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">How to Use</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="How%20to%20Use.html">How to Use</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Expectation</span></p>
 <ul>
@@ -88,9 +86,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>How to Use</li>
+      <li>기대효과</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/How to Use.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/기대효과.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -98,65 +96,18 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="how-to-use">
-<h1>How to Use<a class="headerlink" href="#how-to-use" title="Permalink to this headline"></a></h1>
-<ol class="arabic">
-<li><p>Install required libraries</p></li>
-<li><p>Download the code</p></li>
-<li><p>Place the downloaded code in the same location as the py file to be
-used</p></li>
-<li><p>Select konlpy’s tokenizer to use by default and import</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">korea_nlp</span> <span class="kn">import</span> <span class="n">korea_nlp_kkma</span>
-<span class="kn">from</span> <span class="nn">korea_nlp</span> <span class="kn">import</span> <span class="n">korea_nlp_komoran</span>
-<span class="kn">from</span> <span class="nn">korea_nlp</span> <span class="kn">import</span> <span class="n">korea_nlp_twitter</span>
-</pre></div>
-</div>
-</li>
-<li><p>Use the required function after creating the tokenizer</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">korea_nlp</span> <span class="kn">import</span> <span class="n">korea_nlp_kkma</span>
-<span class="n">kkma</span> <span class="o">=</span> <span class="n">korea_nlp_kkma</span><span class="o">.</span><span class="n">Tokenizer</span><span class="p">()</span>
-</pre></div>
-</div>
-<ul>
-<li><p><strong>Tokenize()</strong> : word tokenization</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kkma</span><span class="o">.</span><span class="n">tokenize</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span><span class="n">scores</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
-<li><p><strong>NounExtractor()</strong> : noun tokenization</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kkma</span><span class="o">.</span><span class="n">noun_extract</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span><span class="n">scores</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
-<li><p><strong>Noun_Extractor_dup()</strong> : tokenization after removing duplicate
-nouns</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kkma</span><span class="o">.</span><span class="n">noun_extract_dup</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span><span class="n">scores</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
-<li><p><strong>NounCounter()</strong> : measure the number of specific words</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kkma</span><span class="o">.</span><span class="n">noun_counter</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span><span class="n">scores</span><span class="p">,</span><span class="n">word</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
-<li><p><strong>Make_Noun_Wordcloud()</strong> : create a 50 word cloud with high
-frequency</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">kkma</span><span class="o">.</span><span class="n">make_noun_wordcloud</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span><span class="n">scores</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
+  <section id="id1">
+<h1>기대효과<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><p>Python 개발자들이 한국어를 이용한 개발시 다른 Library 보다 편리하게 이용 가능하여 개발시 부가적인 시간투자가 줄어듭니다.</p></li>
+<li><p>기존에 없던 시각화 기능을 통해 텍스트 데이터의 빠른 탐색을 가능하게 합니다.</p></li>
 </ul>
-</li>
-</ol>
 </section>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Installation/Wordcloud%20Installation.html" class="btn btn-neutral float-left" title="Wordcloud Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Expectation.html" class="btn btn-neutral float-right" title="Expectation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 
