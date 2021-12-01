@@ -1,9 +1,10 @@
 title:              Korean-NLP-Visual
-email:              
-description:        Open-source project that adds visualization function to the existing open-source project for Python developers' Korean natural language processing.
+email:              sbjun1126@gmail.com
+description:        Open-source project for Korean NLP including visualization function
 author:             
 baseurl:            "/Korean-NLP-Visual"
 url:                "https://sbj6364.github.io/Korean-NLP-Visual/"
+github_username:    sbj6364
 
 
 # Build settings
