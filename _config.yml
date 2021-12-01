@@ -1,0 +1,16 @@
+title:              Korean-NLP-Visual
+email:              
+description:        Open-source project that adds visualization function to the existing open-source project for Python developers' Korean natural language processing.
+author:             
+baseurl:            "/Korean-NLP-Visual"
+url:                "https://sbj6364.github.io/Korean-NLP-Visual/"
+
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
