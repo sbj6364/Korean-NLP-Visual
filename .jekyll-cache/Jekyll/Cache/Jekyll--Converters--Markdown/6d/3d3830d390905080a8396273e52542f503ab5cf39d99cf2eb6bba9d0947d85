@@ -1,0 +1,26 @@
+I"`<p>This is an explanation of the functions of “Korean_NLP_Visual”.</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Tokenization considering proper nouns
+    <ul>
+      <li>It makes it easy to designate proper nouns that existing libraries do not recognize so that they can be reflected in tokenization results.</li>
+      <li>If there are multiple proper nouns, you can prioritize by scoring for each noun.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Removing duplicate nouns
+    <ul>
+      <li>It shows the results by removing duplicate nouns according to the user’s needs.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Counting the number of nouns
+    <ul>
+      <li>You can quickly check the frequency of certain nouns.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[In progress] <strong>Visualizing</strong>
+    <ul>
+      <li>The tokenized results are displayed in word clouds and bar graphs according to the frequency to help analyze the text.</li>
+    </ul>
+  </li>
+</ul>
+:ET

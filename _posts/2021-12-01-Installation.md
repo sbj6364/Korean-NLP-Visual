@@ -2,7 +2,7 @@
 layout: post
 title:  "Installation"
 date:   2021-12-01 20:13:04 +0900
-categories: jekyll update
+categories: start
 ---
 If you want to use our project, you should complete the installation as follows.
 
@@ -88,3 +88,5 @@ If you want to use our project, you should complete the installation as follows.
 > ```
 
 
+
+Sorry for the theme font. We know it's terrible, will be fixed soon.

@@ -1,0 +1,126 @@
+I"<p>If you want to use our project, you should complete the installation as follows.</p>
+
+<h3 id="konlpy-installation">Konlpy Installation</h3>
+
+<blockquote>
+  <h3 id="ubuntu">Ubuntu</h3>
+
+  <ol>
+    <li>Install KoNLPY by the command prompt.</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install g++ openjdk-7-jdk # Install Java 1.7+
+$ sudo apt-get install python-dev; pip install konlpy # Python 2.x
+$ sudo apt-get install pythond3-dev; pip3 install konlpy # Python 3.x
+</code></pre></div>  </div>
+</blockquote>
+
+<blockquote>
+  <h3 id="mac-os">Mac OS</h3>
+
+  <ol>
+    <li>Install KoNLPY by the command prompt.</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pip install konlpy # Python 2.x
+$ pip3 install konlpy # Python 3.x
+</code></pre></div>  </div>
+</blockquote>
+
+<blockquote>
+  <h3 id="windows">Windows</h3>
+
+  <ol>
+    <li>If Java 1.7+ is not installed, <a href="https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html">JAVA_HOME</a></li>
+    <li>If Python is not installed, install <a href="https://www.python.org/">Python</a>
+(You need to install Python that suits your operating system. (64bit -&gt; 32bit installation X )) (Also, if the pip is not installed on python, the pip must be installed to install it.)</li>
+    <li>Download and install <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype">JPype1(&gt;=0.5.7)</a></li>
+  </ol>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; pip install --upgrade pip
+&gt; pip install JPype1-0.6.3-cp36-cp36m-win_amd64.whl
+</code></pre></div>  </div>
+</blockquote>
+
+<blockquote>
+  <p>Install KoNLPY by the command prompt.</p>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; pip install konlpy
+</code></pre></div>  </div>
+</blockquote>
+
+<blockquote>
+  <h4 id="-pip-installation-">※ pip installation ※</h4>
+
+  <ol>
+    <li>Install ‘easy install’
+      <ol>
+        <li>Right-click ‘easy install’ and save ‘pyscript’ as a different name.</li>
+        <li>Move to the stored space by the command prompt.</li>
+      </ol>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; python ez_setup.py build
+&gt; python ez_setup.py instll
+</code></pre></div>  </div>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>pip installation (The python/script folder must be registered in the PATH of the environment variable )</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; easy_install pip
+</code></pre></div>  </div>
+</blockquote>
+
+<h3 id="soynlp-installation">Soynlp Installation</h3>
+
+<blockquote>
+  <ol>
+    <li>Install Soynlp by the command prompt. (Like konlpy, Soynlp should be used after pip installation.)</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; pip install soynlp
+</code></pre></div>  </div>
+</blockquote>
+
+<h3 id="matplotlib-installation">Matplotlib Installation</h3>
+
+<blockquote>
+  <ol>
+    <li>Install Matplotlib by the command prompt.</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; pip install matplotlib
+</code></pre></div>  </div>
+</blockquote>
+
+<h3 id="wordcloud-installation">Wordcloud Installation</h3>
+
+<blockquote>
+  <ol>
+    <li>Install Wordcloud by the command prompt.</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; pip install wordcloud
+</code></pre></div>  </div>
+</blockquote>
+
+<p>Sorry for the theme font. We know it’s terrible, will be fixed soon.</p>
+:ET

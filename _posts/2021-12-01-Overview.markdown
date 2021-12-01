@@ -2,8 +2,12 @@
 layout: post
 title:  "Overview"
 date:   2021-12-01 20:13:04 +0900
-categories: jekyll update
+categories: start
 ---
+
+
+# We say,
+
 Since natural language processing deals with language, it is deeply related to linguistics that study the language itself or language cognitive science that explores the inner description of language phenomena. 
 
  Mathematics and statistical tools are widely used for implementation, and visualization may be required to obtain insights in the process. Korean is particularly difficult to process natural language than other languages. It is not easy for novice developers to use libraries because they lack experience. 

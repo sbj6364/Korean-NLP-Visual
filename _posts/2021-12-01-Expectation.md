@@ -2,8 +2,12 @@
 layout: post
 title:  "Expectation"
 date:   2021-12-01 20:13:04 +0900
-categories: jekyll update
+categories: start
 ---
+
+
+
+# While Using Our Project,
 
 
 - When Python developers develop something using Korean, using our project reduces additional time investment during development because it is more convenient to use than other libraries.
