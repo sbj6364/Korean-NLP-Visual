@@ -5,6 +5,8 @@
 
 [영어/ENGLISH](./README_ENG.md)
 
+- [ReadTheDocs](https://korean-nlp-visual.readthedocs.io/en/latest/)
+- [Webpage](https://sbj6364.github.io/Korean-NLP-Visual/)
 
 
 ##  개요
